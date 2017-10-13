@@ -1,0 +1,23 @@
+export type Options = {
+    maxRockets?: number,
+    rocketSpawnInterval?: number,
+    numParticles?: number,
+    explosionHeight?: number,
+    explosionChance?: number,
+    currentHue?: number,
+    partSpeed?: number,
+    partSpeedVariance?: number,
+    partWind?: number,
+    partFriction?: number,
+    partGravity?: number,
+    hueMin?: number,
+    hueMax?: number,
+    fworkSpeed?: number,
+    fworkAccel?: number,
+    hueVariance?: number,
+    flickerDensity?: number,
+    showShockwave?: boolean,
+    showTarget?: boolean,
+    clearAlpha?: number,
+    lineWidth?: number
+  }
